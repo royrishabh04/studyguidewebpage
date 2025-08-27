@@ -23,6 +23,11 @@ A simple, local-first Streamlit app that:
    ```bash
    pip install -r requirements.txt
    python -m nltk.downloader punkt stopwords averaged_perceptron_tagger
+   .venv/bin/python -m nltk.downloader punkt punkt_tab stopwords averaged_perceptron_tagger
+
+Windows 
+.\.venv\Scripts\python.exe -m nltk.downloader punkt punkt_tab stopwords averaged_perceptron_tagger
+
    ```
 
 3. **Run the app**
